@@ -4,49 +4,46 @@ import Image from 'next/image';
 
 export default function Footer() {
     return (
-        <footer className="bg-linear-to-br from-gray-900 via-blue-900 to-gray-900 text-white">
+        <footer className="bg-linear-to-br gradient-background text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {/* About Section */}
                     <div>
                         <div className="flex items-center space-x-2 mb-4">
-                            {/* <div className="w-10 h-10 bg-linear-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center">
-                                <span className="text-white font-bold text-lg">C</span>
-                            </div> */}
                             <Link href="/" className="flex items-center shrink-0">
                                 <Image src="/images/svgs/logo.svg" width={40} height={40} alt="Logo" />
                             </Link>
                             <div>
                                 <h3 className="text-lg font-bold">Family Care of Hartford</h3>
-                                <p className="text-xs text-gray-300">Healthcare Excellence</p>
+                                <p className="text-xs text-white">Healthcare Excellence</p>
                             </div>
                         </div>
-                        <p className="text-gray-300 text-sm leading-relaxed">
+                        <p className="text-white text-sm leading-relaxed">
                             Providing exceptional healthcare services with compassion and expertise. Your health is our priority.
                         </p>
                     </div>
 
                     {/* Quick Links */}
                     <div>
-                        <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+                        <h4 className="text-lg font-semibold mb-4 text-dark-blue">Quick Links</h4>
                         <ul className="space-y-2">
                             <li>
-                                <Link href="/about" className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm">
+                                <Link href="/about" className="text-white hover:text-dark-blue transition-colors duration-200 text-sm">
                                     About Us
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services" className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm">
+                                <Link href="/services" className="text-white hover:text-dark-blue transition-colors duration-200 text-sm">
                                     Services
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/forms" className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm">
+                                <Link href="/forms" className="text-white hover:text-dark-blue transition-colors duration-200 text-sm">
                                     Forms
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/feedback" className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm">
+                                <Link href="/feedback" className="text-white hover:text-dark-blue transition-colors duration-200 text-sm">
                                     Feedback
                                 </Link>
                             </li>
@@ -55,25 +52,25 @@ export default function Footer() {
 
                     {/* Services */}
                     <div>
-                        <h4 className="text-lg font-semibold mb-4">Our Services</h4>
+                        <h4 className="text-lg font-semibold mb-4 text-dark-blue">Our Services</h4>
                         <ul className="space-y-2">
                             <li>
-                                <Link href="/covid-19" className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm">
+                                <Link href="/covid-19" className="text-white hover:text-dark-blue transition-colors duration-200 text-sm">
                                     COVID-19
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/flu-vaccine" className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm">
+                                <Link href="/flu-vaccine" className="text-white hover:text-dark-blue transition-colors duration-200 text-sm">
                                     Flu Vaccine
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/weight-loss" className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm">
+                                <Link href="/weight-loss" className="text-white hover:text-dark-blue transition-colors duration-200 text-sm">
                                     Weight Loss Program
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/contact" className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm">
+                                <Link href="/contact" className="text-white hover:text-dark-blue transition-colors duration-200 text-sm">
                                     Contact Us
                                 </Link>
                             </li>
@@ -82,7 +79,7 @@ export default function Footer() {
 
                     {/* Contact & Social */}
                     <div>
-                        <h4 className="text-lg font-semibold mb-4">Connect With Us</h4>
+                        <h4 className="text-lg font-semibold mb-4 text-dark-blue">Connect With Us</h4>
                         <div className="flex space-x-4 mb-6">
                             <a
                                 href="https://facebook.com"
@@ -114,7 +111,7 @@ export default function Footer() {
                                 </svg>
                             </a>
                         </div>
-                        <p className="text-gray-300 text-sm">
+                        <p className="text-white text-sm">
                             <strong>Emergency:</strong> 1122<br />
                             <strong>Appointments:</strong> (555) 123-4567
                         </p>
@@ -123,13 +120,13 @@ export default function Footer() {
 
                 {/* Copyright */}
                 <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-                    <p className="text-gray-400 text-sm">
+                    <p className="text-white text-sm">
                         © {new Date().getFullYear()} Family Care of Hartford. All rights reserved. 
                         {/* |
-                        <Link href="/privacy" className="hover:text-blue-400 ml-1 transition-colors duration-200">
+                        <Link href="/privacy" className="hover:text-dark-blue ml-1 transition-colors duration-200">
                             Privacy Policy
                         </Link> |
-                        <Link href="/terms" className="hover:text-blue-400 ml-1 transition-colors duration-200">
+                        <Link href="/terms" className="hover:text-dark-blue ml-1 transition-colors duration-200">
                             Terms of Service
                         </Link> */}
                     </p>

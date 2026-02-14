@@ -21,7 +21,7 @@ export default function Header() {
     ];
 
     return (
-        <header className="absolute top-0 left-0 right-0 z-50 ">
+        <header className="bg-blue">
             <div className="custom-container flex items-center justify-between h-22">
                 {/* Logo */}
                 <Link href="/" className="flex items-center shrink-0">

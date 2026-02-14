@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function HeroSection() {
     return (
         <section className="relative gradient-background">
-            <div className='custom-container pt-22'>
+            <div className='custom-container'>
                 {/* Background Pattern/Decoration */}
                 <div className="absolute inset-0 opacity-10">
                     <div className="absolute left-10 w-64 h-64 bg-white rounded-full blur-3xl"></div>
