@@ -29,7 +29,7 @@ export default function HeroSection() {
                             <div className="pt-4">
                                 <Link
                                     href="/contact"
-                                    className="inline-block px-4 md:px-8 py-3 md:py-4 bg-dark-blue2 font-semibold text-base md:text-lg rounded-md hover:bg-white hover:text-dark-blue2 transition-all duration-300 shadow-xl hover:shadow-2xl transform "
+                                    className="inline-block px-4 md:px-8 py-3 md:py-4 bg-dark-blue2 font-semibold text-white text-base md:text-lg rounded-md hover:bg-white hover:text-dark-blue2 transition-all duration-300 shadow-xl hover:shadow-2xl transform "
                                 >
                                     GET STARTED
                                 </Link>
