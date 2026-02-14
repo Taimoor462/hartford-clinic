@@ -32,13 +32,13 @@ export default function HeroSection() {
 
                             <div className="flex gap-5 items-center flex-wrap pt-8">
                                 <Link
-                                    href="/contact"
+                                    href="#"
                                     className="inline-block uppercase px-4 md:px-8 py-2 md:py-3 bg-orange font-semibold text-white border-2 border-transparent text-sm md:text-lg rounded-sm hover:bg-white hover:text-orange transition-all duration-300 shadow-xl hover:shadow-2xl transform"
                                 >
                                     Book Appointment
                                 </Link>
                                 <Link
-                                    href="/contact"
+                                    href="#"
                                     className="flex justify-center items-center px-4 md:px-8 py-2 md:py-3 font-semibold text-white uppercase border-2 text-sm md:text-lg border-white rounded-sm hover:bg-white hover:text-orange transition-all duration-300 transform "
                                 >
                                     Directions

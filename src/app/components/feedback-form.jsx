@@ -12,7 +12,7 @@ const FeedbackForm = () => {
                 </div>
                 <textarea name="" id="" placeholder="Feedback" rows={5} className="outline-none focus:border-orange border bg-white border-gray-300 rounded-sm px-4 py-2"></textarea>
                 <Link
-                    href="/contact"
+                    href="#"
                     className="w-fit uppercase px-4 md:px-8 py-2 md:py-3 bg-orange font-semibold text-white border-2 border-transparent text-sm md:text-lg rounded-sm hover:bg-white hover:text-orange transition-all duration-300 shadow-xl hover:shadow-2xl transform"
                 >
                     Submit

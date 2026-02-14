@@ -33,7 +33,7 @@ export default async function ServiceDetails({ params }) {
                             </p>
                             <div className="pt-4 lg:pt-10">
                                 <Link
-                                    href="/contact"
+                                    href="#"
                                     className="inline-block px-4 md:px-8 py-3 md:py-4 bg-dark-blue2 font-semibold text-white text-base md:text-lg rounded-md hover:bg-white hover:text-dark-blue2 transition-all duration-300 shadow-xl hover:shadow-2xl transform "
                                 >
                                     GET STARTED
@@ -42,7 +42,7 @@ export default async function ServiceDetails({ params }) {
                         </div>
 
                         {/* Right Image */}
-                        <div className="relative w-full h-[300px] lg:h-[400px] rounded-2xl overflow-hidden shadow-xl">
+                        <div className="relative w-full h-75 lg:h-100 rounded-2xl overflow-hidden shadow-xl">
                             <Image
                                 src={service.img}
                                 alt={service.title}

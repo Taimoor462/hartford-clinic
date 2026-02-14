@@ -122,7 +122,7 @@ const Feedback = () => {
                             <p className="font-semibold">Based on 150+ patient reviews</p>
                             <Link
                                 href="#"
-                                className="inline-block uppercase px-4 md:px-8 py-2 md:py-3 bg-orange font-semibold text-white border-2 border-transparent text-sm md:text-lg rounded-sm hover:bg-white hover:text-orange transition-all duration-300"
+                                className="inline-block uppercase px-4 md:px-8 py-2 md:py-3 bg-orange font-semibold text-white border-2 border-transparent hover:border-orange text-sm md:text-lg rounded-sm hover:bg-white hover:text-orange transition-all duration-300"
                             >
                                 READ MORE REVIEWS
                             </Link>
