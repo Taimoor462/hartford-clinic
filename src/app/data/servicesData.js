@@ -87,7 +87,7 @@ export const services = [
         id: 7,
         img: "/images/service-7.webp",
         title: "Asthma & Respiratory Care",
-        shortDescription: "Evaluation, treatment, and personalized plans for better breathing and lung health.",
+        description: "Evaluation, treatment, and personalized plans for better breathing and lung health.",
         fullDescription: "Breathe easier with our specialized asthma and respiratory care. We provide diagnosis, treatment, and long-term management strategies for asthma, allergies, and other respiratory conditions to help you maintain optimal lung health.",
         details: [
             "Asthma diagnosis and management.",
@@ -95,6 +95,34 @@ export const services = [
             "COPD management.",
             "Bronchitis and pneumonia treatment.",
             "Pulmonary function testing."
+        ]
+    },
+    {
+        id: 8,
+        img: "/images/service-9.webp",
+        title: "Flu Vaccine",
+        description: "Protect yourself and your community with our annual flu vaccination services. Safe, quick, and available for the whole family.",
+        fullDescription: "The seasonal flu vaccine is your best defense against influenza. At Family Care of Hartford, we offer flu shots for adults and children to help prevent the spread of the virus. Vaccination is especially important for those with chronic health conditions, the elderly, and pregnant women. Our team ensures a safe and comfortable experience.",
+        details: [
+            "Annual seasonal flu shots.",
+            "High-dose vaccines for seniors (65+).",
+            "Pediatric flu vaccinations.",
+            "Walk-in availability during flu season.",
+            "Most insurance plans accepted."
+        ]
+    },
+    {
+        id: 9,
+        img: "/images/service-10.webp",
+        title: "COVID-19 Testing Information",
+        description: "Comprehensive COVID-19 testing options including PCR, Rapid Antigen, and Antibody testing for travel, work, or peace of mind.",
+        fullDescription: "We provide a full range of COVID-19 testing services to meet your needs, whether you are experiencing symptoms, have had an exposure, or require clearance for travel or employment. Our testing is conducted with strict safety protocols to ensure accuracy and results are delivered promptly.",
+        details: [
+            "RT-PCR Testing (Gold Standard).",
+            "Rapid Antigen Testing (Results in 15 mins).",
+            "Antibody Testing for past infection.",
+            "Travel clearance documentation.",
+            "Corporate and group testing solutions."
         ]
     }
 ];
