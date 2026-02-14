@@ -2,6 +2,7 @@ import { Instrument_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import TopHeader from "./components/top-header";
 
 const InstrumentSans = Instrument_Sans({
   variable: "--font-instrument",
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body suppressHydrationWarning
         className={`${InstrumentSans.variable} antialiased`}
       >
+        <TopHeader />
         <Header />
         <main className="min-h-screen">
           {children}

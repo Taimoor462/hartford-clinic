@@ -119,7 +119,7 @@ export default function Footer() {
                 </div>
 
                 {/* Copyright */}
-                <div className="border-t border-gray-700 mt-8 pt-8 text-center">
+                <div className="border-t border-white/40 mt-8 pt-8 text-center">
                     <p className="text-white text-sm">
                         © {new Date().getFullYear()} Family Care of Hartford. All rights reserved. 
                         {/* |

@@ -6,32 +6,42 @@ export default function HeroSection() {
     return (
         <section className="relative gradient-background">
             <div className='custom-container'>
-                {/* Background Pattern/Decoration */}
-                <div className="absolute inset-0 opacity-10">
-                    <div className="absolute left-10 w-64 h-64 bg-white rounded-full blur-3xl"></div>
-                    <div className="absolute bottom-20 right-10 w-96 h-96 bg-white rounded-full blur-3xl"></div>
-                </div>
-
                 <div className="relative">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-10 md:py-14">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-8 md:py-10">
                         {/* Left Content */}
-                        <div className="text-white space-y-5 md:space-y-8 z-10">
+                        <div className="text-white z-10">
                             <h1 className="text-[26px] lg:text-5xl font-bold leading-tight">
                                 COMPASSIONATE <span className='text-text-dark-blue'>CARE</span>
                                 <br />
                                 <span className="text-gray-100">WHEN YOU NEED IT MOST</span>
                             </h1>
+                            <div className='h-0.5 my-3 bg-[#D9D9D980] w-full max-md:max-w-85'></div>
 
-                            <p className="text-base lg:text-xl text-blue-100 max-w-xl leading-relaxed">
-                                WALK-IN URGENT CARE AND FAMILY MEDICINE SERVICES IN HARTFORD. QUALITY TREATMENT, SHORTER WAIT TIMES, AND FRIENDLY STAFF.
+                            <p className="text-base lg:text-xl text-blue-100 max-w-xl leading-relaxed uppercase">
+                                Walk-in urgent care and family medicine services in Hartford.
                             </p>
+                            <div className='flex items-center gap-2 mt-8'>
+                                <Image src="/images/svgs/pin.svg" width={23} height={23} alt='location' />
+                                <p className='uppercase'>556 Zion Street, Hartford, CT</p>
+                            </div>
+                            <div className='h-0.5 my-4 bg-[#D9D9D980] w-full max-w-75'></div>
+                            <div className='flex items-center gap-2'>
+                                <Image src="/images/svgs/clock.svg" width={23} height={23} alt='location' />
+                                <p className='uppercase'> OPEN TODAY  9:00 am – 6:00 pm </p>
+                            </div>
 
-                            <div className="pt-4">
+                            <div className="flex gap-5 items-center flex-wrap pt-8">
                                 <Link
                                     href="/contact"
-                                    className="inline-block px-4 md:px-8 py-3 md:py-4 bg-dark-blue2 font-semibold text-white text-base md:text-lg rounded-md hover:bg-white hover:text-dark-blue2 transition-all duration-300 shadow-xl hover:shadow-2xl transform "
+                                    className="inline-block uppercase px-4 md:px-8 py-2 md:py-3 bg-orange font-semibold text-white border-2 border-transparent text-sm md:text-lg rounded-sm hover:bg-white hover:text-orange transition-all duration-300 shadow-xl hover:shadow-2xl transform"
                                 >
-                                    GET STARTED
+                                    Book Appointment
+                                </Link>
+                                <Link
+                                    href="/contact"
+                                    className="flex justify-center items-center px-4 md:px-8 py-2 md:py-3 font-semibold text-white uppercase border-2 text-sm md:text-lg border-white rounded-sm hover:bg-white hover:text-orange transition-all duration-300 transform "
+                                >
+                                    Directions
                                 </Link>
                             </div>
                         </div>

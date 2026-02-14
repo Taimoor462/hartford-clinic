@@ -2,21 +2,19 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { Phone, MessageSquare } from 'lucide-react';
 import Image from 'next/image';
-import Button from './button';
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const navItems = [
         { name: 'HOME', href: '/' },
-        { name: 'ABOUT US', href: '/about' },
+        // { name: 'ABOUT US', href: '/about' },
         { name: 'SERVICES', href: '/services' },
         { name: 'FORMS', href: '/forms' },
         { name: 'FEEDBACK', href: '/feedback' },
-        { name: 'COVID-19', href: '/covid-19' },
-        { name: 'FLU VACCINE', href: '/flu-vaccine' },
+        // { name: 'COVID-19', href: '/covid-19' },
+        // { name: 'FLU VACCINE', href: '/flu-vaccine' },
         // { name: 'WEIGHT LOSS PROGRAM', href: '/weight-loss' },
     ];
 
@@ -45,7 +43,7 @@ export default function Header() {
 
                 {/* Phone & Contact Button */}
                 <Link
-                    href="/contact"
+                    href="#"
                     className="hidden lg:flex justify-center items-center w-42.5 text-white uppercase border-2 border-white h-13 rounded-md hover:bg-white hover:text-dark-blue2 transition-all duration-300 transform "
                 >
                     Contact
@@ -90,7 +88,7 @@ export default function Header() {
                             </Link>
                         ))}
                         <Link
-                            href="/contact"
+                            href="#"
                             className="mx-4 mt-2 px-6 py-3 bg-white text-dark-blue2 font-bold rounded text-center border-2 border-dark-blue2 hover:bg-blue-50 transition-all duration-300"
                             onClick={() => setIsMenuOpen(false)}
                         >
