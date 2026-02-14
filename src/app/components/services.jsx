@@ -3,15 +3,15 @@ import ServiceCard from "./service-card";
  const services = [
     {
         id: 1,
-        img: "/images/service-3.webp",
+        img: "/images/service-1.webp",
         title: "Botox Services",
-        description: "Safe, FDA-approved Botox treatments to reduce fine lines and wrinkles, enhance facial appearance, and deliver natural-looking results with minimal downtime.",
+        description: "Safe, FDA-approved Botox treatments to reduce fine lines and wrinkles, enhance facial appearance, and deliver natural-looking results.",
     },
     {
         id: 2,
-        img: "/images/service-4.webp",
+        img: "/images/service-8.webp",
         title: "Medical Weight Loss",
-        description: "Personalized, medically supervised weight loss programs including nutritional guidance, lifestyle coaching, and treatment plans tailored to your health goals.",
+        description: "Personalized, medically supervised weight loss programs including nutritional guidance, coaching, and treatment plans tailored to your health goals.",
     },
     {
         id: 3,
@@ -37,18 +37,18 @@ import ServiceCard from "./service-card";
         title: "Chronic Disease Management",
         description: "Ongoing care and monitoring for diabetes, hypertension, and other chronic conditions.",
     },
-    {
-        id: 7,
-        img: "/images/service-7.webp",
-        title: "Asthma & Respiratory Care",
-        description: "Evaluation, treatment, and personalized plans for better breathing and lung health.",
-    },
-    {
-        id: 8,
-        img: "/images/service-8.webp",
-        title: "Weight Management",
-        description: "Supportive programs designed to help you achieve sustainable and healthy weight goals.",
-    },
+    // {
+    //     id: 7,
+    //     img: "/images/service-7.webp",
+    //     title: "Asthma & Respiratory Care",
+    //     description: "Evaluation, treatment, and personalized plans for better breathing and lung health.",
+    // },
+    // {
+    //     id: 8,
+    //     img: "/images/service-8.webp",
+    //     title: "Weight Management",
+    //     description: "Supportive programs designed to help you achieve sustainable and healthy weight goals.",
+    // },
  ]
 
 const ServicesSection = ()=> {

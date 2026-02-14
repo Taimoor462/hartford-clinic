@@ -13,7 +13,7 @@ export default function HeroSection() {
                 </div>
 
                 <div className="relative">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-10 md:py-14">
                         {/* Left Content */}
                         <div className="text-white space-y-5 md:space-y-8 z-10">
                             <h1 className="text-[26px] lg:text-5xl font-bold leading-tight">

@@ -115,7 +115,7 @@ export default function Footer() {
                             </a>
                         </div>
                         <p className="text-gray-300 text-sm">
-                            <strong>Emergency:</strong> 911<br />
+                            <strong>Emergency:</strong> 1122<br />
                             <strong>Appointments:</strong> (555) 123-4567
                         </p>
                     </div>
