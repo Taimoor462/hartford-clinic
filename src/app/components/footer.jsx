@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Footer() {
     return (
-        <footer className="bg-blue text-white py-10">
+        <footer className="bg-blue text-white py-5">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6">
                     {/* Brand */}
@@ -19,13 +19,13 @@ export default function Footer() {
                     <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm font-medium text-blue-50">
                         <div className="flex items-center gap-2">
                             <Image src="/images/svgs/pin.svg" width={16} height={16} className="brightness-0 invert opacity-80" alt="location" />
-                            <span>556 Zion Street, Hartford, CT</span>
+                            <span>556 Zion Street, Hartford, CT 06106</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 opacity-80">
                                 <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 5.25V4.5z" clipRule="evenodd" />
                             </svg>
-                            <span>(555) 123-4567</span>
+                            <span>860-947-4400</span>
                         </div>
                     </div>
 

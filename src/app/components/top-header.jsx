@@ -10,7 +10,7 @@ const TopHeader = ()=> {
                 </div>
                 <div className='flex items-center gap-2 lg:order-3'>
                     <Image src="/images/svgs/phone.svg" width={23} height={23} alt='location' />
-                    <p className='uppercase'> 864-471-4400 </p>
+                    <p className='uppercase'>860-947-4400</p>
                 </div>
                 <div className='flex items-center gap-2 lg:order-2'>
                     <Image src="/images/svgs/clock.svg" width={23} height={23} alt='location' />

@@ -42,7 +42,7 @@ const Forms = ({})=> {
                 <p className="text-base md:text-xl text-black/60 mt-4 max-w-180 mx-auto uppercase font-semibold">Save time during your visit by completing your forms online before arrival.</p>
             </div>
             <div className="bg-[#7DB5DB21] py-7 md:py-10">
-                <div className="custom-container grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div className="custom-container grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-center">
                     {forms.map((form) => (
                         <FormCard key={form.id} data={form} />
                     ))}
