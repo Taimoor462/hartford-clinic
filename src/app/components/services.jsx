@@ -1,6 +1,6 @@
 import ServiceCard from "./service-card";
 
-const ServicesSection = ({services})=> {
+const ServicesSection = ({ services }) => {
     return (
         <section>
             <div className="custom-container text-center py-7 md:py-10">
@@ -9,7 +9,7 @@ const ServicesSection = ({services})=> {
                 <p className="text-base md:text-xl text-black/60 mt-4 max-w-180 mx-auto">Comprehensive care for individuals and families — delivered with compassion, expertise, and efficiency.</p>
             </div>
             <div className="bg-[#7DB5DB21] py-7 md:py-10">
-                <div className="custom-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 items-center">
+                <div className="custom-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
                     {services.map((service) => (
                         <ServiceCard key={service.id} data={service} />
                     ))}
