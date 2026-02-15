@@ -34,9 +34,9 @@ export default async function ServiceDetails({ params }) {
                             <div className="pt-4 lg:pt-10">
                                 <Link
                                     href="#"
-                                    className="inline-block px-4 md:px-8 py-3 md:py-4 bg-dark-blue2 font-semibold text-white text-base md:text-lg rounded-md hover:bg-white hover:text-dark-blue2 transition-all duration-300 shadow-xl hover:shadow-2xl transform "
+                                    className="inline-block uppercase px-4 md:px-8 py-2 md:py-3 bg-orange font-semibold text-white border-2 border-transparent text-sm md:text-lg rounded-sm hover:bg-white hover:text-orange transition-all duration-300 shadow-xl hover:shadow-2xl transform"
                                 >
-                                    GET STARTED
+                                    Book Appointment
                                 </Link>
                             </div>
                         </div>
